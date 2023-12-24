@@ -19,7 +19,7 @@ describe('Test Suite',function(){
         })
       })
 
-    it ('Test Case',function(){
+    it ('Test Case UPDATED',function(){
 
         // In a scenario where we want to update the default timeout at a spec level (where we don´t want the timeout to apply for all the tests), it can be done as well
         // Cypress.config('defaultCommandTimeout','10000')
