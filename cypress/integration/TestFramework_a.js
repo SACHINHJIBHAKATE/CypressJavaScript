@@ -11,7 +11,7 @@ describe('Test Suite',function(){
         })
       })
 
-    it ('Test Case3',function(){
+    it ('Test Case3 UPDATED',function(){
 
         cy.visit('https://rahulshettyacademy.com/angularpractice/')
         cy.get("input[name='name']:nth-child(2)").type(this.datafile.name)
