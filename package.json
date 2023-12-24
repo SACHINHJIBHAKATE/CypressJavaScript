@@ -1,0 +1,24 @@
+{
+  "name": "cypressautojsprj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "test_headed": "node_modules\\.bin\\cypress run -- --headed",
+    "test_onespecfile": "npm run test_headed -- --spec cypress/integration/examples/TestFramework_b.js",
+    "test_chrome": "npm run test_headed -- --browser chrome",
+    "test_edge": "npm run test_headed -- --browser edge",
+    "test_record": "npm run test_headed -- --record --key 4647e76f-fe8c-4e5f-957f-261044e5b505",
+    "test_record_onespecfile": "npm run test_onespecfile -- --record --key 4647e76f-fe8c-4e5f-957f-261044e5b505",
+    "test_multiplespecfiles_all_files_in_a_folder": "npm run test_headed -- --spec \"cypress/integration/*\"",
+    "test_chrome_headed_record": "npm run test_headed -- --browser chrome --record --key 4647e76f-fe8c-4e5f-957f-261044e5b505",
+    "test_chrome_headed_record_parallel": "npm run test_headed -- --browser chrome --record --key 4647e76f-fe8c-4e5f-957f-261044e5b505 --parallel"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1",
+    "cypress-iframe": "^1.0.1"
+  }
+}
