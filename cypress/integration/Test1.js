@@ -2,7 +2,7 @@
 
 describe('Test Suite',function(){
 
-    it ('Test Case1',function(){
+    it ('Test Case1 UPDATED',function(){
     
         cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
         cy.get('.search-keyword').type('ca')
