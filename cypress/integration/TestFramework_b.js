@@ -237,6 +237,12 @@ describe('Test Suite',function(){
             // We need to use 'expect(true).to.be.true' ==> write the condition in place of true, if condition is true, 
             // then the assertion will pass
             expect(successmessage.includes('AQW')).to.be.true
+            expect(successmessage.includes)
         })
     })
 })
+
+// assert the element's text content is exactly the given text
+// cy.get('[data-testid="user-name"]').should('have.text', 'Joe Smith')
+// assert the element's text includes the given substring
+// cy.get('[data-testid="address"]').should('include.text', 'Atlanta')
